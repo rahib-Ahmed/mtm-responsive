@@ -162,6 +162,13 @@ button {
 
 /* styling section for buy area */
 
+.store-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    height: auto;
+}
+
 .card-container {
     display: flex;
     flex-direction: column;
@@ -232,7 +239,12 @@ button {
     .categories-section{
         overflow: visible;
     }
-
+    .store-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+        overflow: visible;
+    }
 }
 
 /* for the screen size 960px and larger*/
